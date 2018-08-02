@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f95d06-db62-4bb8-85e2-edadde32b4cc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/ModelDuck.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/fly_behaviors/FlyRocketPowered.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/mijaelx64/Main.java" afterPath="$PROJECT_DIR$/src/com/mijaelx64/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/MallarDuck.java" afterPath="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/MallardDuck.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/Duck.java" afterPath="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/Duck.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +21,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="432">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,16 +33,45 @@
       <file leaf-file-name="Duck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/Duck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="468">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
                 <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelDuck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/ModelDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlyRocketPowered.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/fly_behaviors/FlyRocketPowered.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,16 +156,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuackBehavior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/interfaces/QuackBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -162,11 +183,13 @@
         <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/quack_behaviors/MuteQuack.java" />
         <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/quack_behaviors/Squeak.java" />
         <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/fly_behaviors/FlyNoWay.java" />
-        <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/Duck.java" />
         <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/fly_behaviors/FlyWithWings.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/MallarDuck.java" />
         <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/Duck.java" />
+        <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/ModelDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/fly_behaviors/FlyRocketPowered.java" />
         <option value="$PROJECT_DIR$/src/com/mijaelx64/Main.java" />
       </list>
     </option>
@@ -228,6 +251,30 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mijaelx64" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mijaelx64" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mijaelx64" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mijaelx64" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviors" type="462c0819:PsiDirectoryNode" />
+              <item name="fly_behaviors" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,8 +413,10 @@
             <element signature="e#387#388#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,8 +524,10 @@
             <element signature="e#387#388#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,22 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/fly_behaviors/FlyWithWings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -669,6 +704,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/ModelDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/behaviors/fly_behaviors/FlyRocketPowered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -681,10 +739,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/strategy_pattern/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mijaelx64/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="432">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
