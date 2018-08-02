@@ -1,18 +1,18 @@
 package com.mijaelx64;
 
 import com.mijaelx64.strategy_pattern.Duck;
-import com.mijaelx64.strategy_pattern.MallarDuck;
+import com.mijaelx64.strategy_pattern.MallardDuck;
 
 public class Main {
 
     public static void main(String[] args) {
 
         // Strategy Pattern
-        Duck mallarDuck = new MallarDuck();
+        Duck mallardDuck = new MallardDuck();
 
-        mallarDuck.performFly();
-        mallarDuck.performQuack();
-        mallarDuck.display();
+        mallardDuck.performFly();
+        mallardDuck.performQuack();
+        mallardDuck.display();
 
     }
 }

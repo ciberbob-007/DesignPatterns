@@ -4,9 +4,9 @@ import com.mijaelx64.strategy_pattern.behaviors.fly_behaviors.FlyWithWings;
 import com.mijaelx64.strategy_pattern.behaviors.quack_behaviors.Quack;
 import com.mijaelx64.strategy_pattern.behaviors.quack_behaviors.Squeak;
 
-public class MallarDuck extends Duck {
+public class MallardDuck extends Duck {
 
-    public MallarDuck() {
+    public MallardDuck() {
         quackBehavior = new Squeak();
         flyBehavior = new FlyWithWings();
     }
